@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Books</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300,400;500,600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+                * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+    
+            body {
+                
+                box-sizing: content-box;
+                font-family: Arial, Helvetica, sans-serif;
+                background: radial-gradient(#a6f0d3, white);
+            }
+    
+            .topnav {
+                overflow: hidden;
+                background-color: #0a0707;
+            }
+    
+            .topnav a {
+                float: left;
+                display: block;
+                color: rgb(245, 236, 236);
+                text-align: center;
+                padding: 15px 20px;
+                text-decoration: none;
+                font-size: 20px;
+            }
+    
+            .topnav a:hover {
+                background-color: rgba(222, 220, 220, 0.233);
+                color: rgba(146, 133, 148, 0.867);
+            }
+    
+            .topnav a.active {
+                background-color: #2b32385b;
+                color: rgba(251, 249, 251, 0.499);
+            }
+    
+            .topnav .search-container {
+                float: left;
+            }
+    
+            .topnav input[type=text] {
+                padding: 10px;
+                width: 350px;
+                margin-top: 1%;
+                font-size: 15px;
+                border: none;
+            }
+    
+            .topnav .search-container button {
+                float: right;
+                padding: 10px 10px;
+                margin-top: 1%;
+                margin-right: 16px;
+                background: #ddd;
+                font-size: 9px;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+    
+            .topnav .search-container button:hover {
+                background: #ccc;
+            }
+    
+            @media screen and (max-width: 600px) {
+                .topnav .search-container {
+                    float: none;
+                }
+    
+                .topnav a,
+                .topnav input[type=text],
+                .topnav .search-container button {
+                    float: none;
+                    display: block;
+                    text-align: left;
+                    width: 100%;
+                    margin: 0;
+                    padding: 14px;
+                }
+    
+                .topnav input[type=text] {
+                    border: 1px solid #ccc;
+                }
+            }
+    
+            .column img {
+                transition: transform 0.5s;
+            }
+    
+            .column img:hover {
+                transform: translateY(-15px);
+            }
+            .sub-menu{
+                display: none;
+                text-decoration: none;
+            }
+            .topnav ul:hover .sub-menu{
+                display: block;
+                position: absolute;
+                background-color: rgb(0, 0, 0);
+                margin-top: 10%;
+                margin-left: 10%;
+                
+            }
+        </style>
+</head>
+
+<body>
+    
+
+    <div class="topnav">
+        <ul>
+            <li><a href="homepage.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+            <li><a class="active" href="#home">SUCCESS THE ULTIMATE DESTINATION</a></li>
+            <li><div class="search-container">
+                <form action="#">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form></li>
+            </ul>
+        <a href="#">Categories</a>
+         <div class="sub-menu">
+            <ul>
+                <li><a href="#">UPSC</a></li>
+                <li><a href="#">NEET</a></li>
+                <li><a href="#">JEE</a></li>
+                <li><a href="#">NDA</a></li>
+                <li><a href="#">INDIAN RAILWAYS</a></li>
+            </ul>
+         </div>
+            <a class="accicon" href="login.html"><img src="./img/account.png" alt="failed to load icon" height="35px"
+                    width="30px"> </a>
+        </a>
+    </div>
+    </div>
+
+</body>
+
+<div class="row">
+    <div class="column">
+        <img src="img/upsc.jpg" alt="upsc" width="200" height="220">
+    </div>
+    <div class="column">
+        <img src="img/jee.jpg" alt="Forest" width=" 200" height="220">
+    </div>
+    <div class="column">
+        <img src="img/neet.jpg" alt="Mountains" width=" 200" height="220">
+    </div>
+    <div class="column">
+        <img src="img/nda.jpg" alt="Mountains" width=" 200" height="220">
+    </div>
+    <div class="column">
+        <img src="img/rrb.jpg" alt="Mountains" width=" 200" height="220">
+    </div>
+</div>
+<div class="row">
+    <div class="column">
+        <img src="img/new.jpg" alt="news" style="width: 100%;" height="270">
+    </div>
+</div>
+<div class="row">
+    <div class="column">
+        <img src="img/monthly.jpg" alt="monthly" style="width: 100%;" height="400">
+    </div>
+</div> -->
+
+</html>

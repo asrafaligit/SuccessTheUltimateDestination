@@ -1,0 +1,93 @@
+* {
+    margin: 0.7vh;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 40vh;
+    /* margin-top: 50px; */
+    margin-left: 60vh;
+}
+
+body {
+    background: radial-gradient(#a6f0d3, white);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    padding-left: 2%;
+}
+
+nav ul li {
+    display: inline-block;
+    display: inline;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #03ae6f;
+    color: black;
+}
+
+/* style the courses */
+.small-container {
+    max-width: 150vh;
+    padding-left: 20vh;
+    /* padding-right: 18vh; */
+}
+
+.row {
+box-sizing: content-box;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col {
+    flex-basis: 30%;
+    padding-top: 10vh;
+    min-width: 35vh;
+    margin-bottom: 5vh;
+    transition: transform 0.5s;
+}
+
+.col img {
+    width: 100%;
+}
+
+.col:hover {
+    transform: translateY(-15px);
+}
+
+.categories {
+    margin: 5vh;
+}
+
+h2 {
+    text-align: center;
+}
